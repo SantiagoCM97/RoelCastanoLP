@@ -1,0 +1,77 @@
+html,body {
+    background: url(background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+.navbar, .navbar-expand-lg{
+    background-color: rgba(0,0,0,.6);
+}
+
+.nav-link{
+    color: rgba(255,255,255,.6);
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: rgba(255,255,255,1);
+    transition-duration: 0.2s;
+}
+#lastitem {
+    margin-right: 70px;
+}
+.navbar-brand{
+    font-family: Montserrat, sans-serif;
+    color: rgba(133,145,134,0.5);
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.navbar-brand:hover {
+    color: rgba(133,145,134,0.9);
+}
+.row {
+    height: 250px;
+}
+
+.greeting{
+    margin-top: 150px;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 250px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
